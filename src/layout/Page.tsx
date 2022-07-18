@@ -6,7 +6,7 @@ import {TextField} from "../lib/ui/src/components/Field/TextField/TextField";
 import {Modal} from "../lib/ui/src/components/Modal";
 import {SaveIcon} from "../lib/ui/src/components/Icon/SaveIcon";
 import {IPageProps} from "../types/props";
-import {BottomNavbar} from "../components/Navigation/BottomNavbar";
+import {Navbar} from "../components/Navigation/Navbar";
 
 export const Page = ({children}: IPageProps) => {
     const [open, setOpen] = useState(false)
@@ -32,7 +32,7 @@ export const Page = ({children}: IPageProps) => {
             <div className="content">
                 {children}
             </div>
-            <BottomNavbar/>
+            <Navbar/>
             <Modal
                 open={open}
                 onClose={() => {

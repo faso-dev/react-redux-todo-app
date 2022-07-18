@@ -1,5 +1,5 @@
 import {ITodoAction, ITodoState} from "../types/todoState";
-import {ADD_TODO, COMPLETED_TODO, EDIT_TODO, REMOVE_TODO, TODO_LIST, TOGGLE_TODO, UNCOMPLETED_TODO} from "../constants";
+import {ADD_TODO, COMPLETED_TODO, EDIT_TODO, REMOVE_TODO, TOGGLE_TODO, UNCOMPLETED_TODO} from "../constants";
 
 
 export const initialTodosState: ITodoState = {
