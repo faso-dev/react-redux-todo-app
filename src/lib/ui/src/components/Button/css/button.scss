@@ -25,6 +25,28 @@ button {
     }
   }
 
+  &.danger {
+    background: #dc3545;
+    color: #fff;
+
+    &.outline {
+      border: solid 1px #dc3545;
+      background: #fff;
+      color: #dc3545;
+    }
+  }
+
+  &.warning {
+    background: #ffc107;
+    color: #fff;
+
+    &.outline {
+      border: solid 1px #ffc107;
+      background: #fff;
+      color: #ffc107;
+    }
+  }
+
   &.transparent {
     background: transparent;
 
